@@ -1,13 +1,12 @@
 <div align="center">
 
 # Kushal A M
+### Distributed Systems · Applied AI & Computer Vision · Cryptographic Protocols
+**B.Tech in Computer Science & Engineering (Blockchain) · Presidency University, Bangalore (2022–2026)**
 
-### Systems Architect · Full-Stack Engineer · Applied AI & Distributed Ledger Systems
-**B.Tech Computer Science & Engineering (Blockchain) · Presidency University, Bangalore (2022–2026)**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ku5hal)
-[![Email](https://img.shields.io/badge/Email-indexkam%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:indexkam@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ku5hal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ku5hal)
 [![GitHub](https://img.shields.io/badge/GitHub-kam--hq-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kam-hq)
+[![Email](https://img.shields.io/badge/Email-indexkam%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:indexkam@gmail.com)
 
 <br/>
 
@@ -18,115 +17,145 @@
 
 ---
 
-```bash
-$ kam-hq --telemetry --verbose
-┌───────────────────────┬────────────────────────────────────────────────────────┐
-│ Profile Metric        │ System Value                                           │
-├───────────────────────┼────────────────────────────────────────────────────────┤
-│ Primary Focus         │ Scalable Microservices, Applied CV/AI & Web3 Protocols │
-│ Location & Timezone   │ Bangalore, India [UTC+05:30]                           │
-│ Academic Track        │ B.Tech CSE (Blockchain Specialization), Class of 2026  │
-│ Availability          │ Open to Software Engineering, AI & Blockchain Roles    │
-│ System Architecture   │ Docker, Fast-Inference Edge Models, EVM Smart Contracts│
-│ Engineering Baseline  │ Clean Code, High Test Coverage, Non-Repudiation Audits │
-└───────────────────────┴────────────────────────────────────────────────────────┘
+### $ kam-hq --system-telemetry --verbose
+
+```
++-----------------------+-------------------------------------------------------------+
+| Telemetry Parameter   | Active System Value                                         |
++-----------------------+-------------------------------------------------------------+
+| Primary Focus         | Scalable Microservices, Applied CV/AI, Trustless Protocols  |
+| Location / Timezone   | Bangalore, India [UTC+05:30]                                |
+| Academic Track        | B.Tech CSE (Blockchain Specialization), Class of 2026       |
+| Core Inference Stack  | Ultralytics YOLOv8 (90.9% mAP50), LightGBM (<50ms Latency)  |
+| Consensus & Ledger    | EVM Smart Contracts (Solidity), SHA-256 State Root Auditing |
+| Containerization      | Docker Compose, Automated Build-Test Pipelines, Prometheus  |
+| Code Base Baseline    | Strict Typing, Zero PII on-chain, Explainable AI (SHAP)     |
++-----------------------+-------------------------------------------------------------+
 ```
 
 ---
 
-## 🏛️ Engineering Capabilities & Domain Matrix
+## 🏛️ End-to-End System Architecture Topology
 
-I build robust, production-grade applications that bridge classical computer science rigor with modern distributed computing:
+A unified architectural pattern connecting client ingress, real-time machine intelligence, and decentralized consensus:
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                             ENGINEERING CAPABILITY TAXONOMY                              │
-├───────────────────┬──────────────────────────────────┬───────────────────────────────────┤
-│ DOMAIN            │ KEY IMPLEMENTED TECHNOLOGIES     │ PRODUCTION HIGHLIGHT              │
-├───────────────────┼──────────────────────────────────┼───────────────────────────────────┤
-│ Full-Stack SDE    │ Java, TypeScript, Python, React, │ WebSocket streaming consoles,     │
-│                   │ Node.js, FastAPI, PostgreSQL     │ zero-downtime containerized APIs  │
-├───────────────────┼──────────────────────────────────┼───────────────────────────────────┤
-│ Applied AI & CV   │ Ultralytics YOLO, PyTorch, SHAP, │ 90.9% mAP50 vision segmentation,  │
-│                   │ TensorFlow.js, Google Gemini API │ Explainable AI risk attribution   │
-├───────────────────┼──────────────────────────────────┼───────────────────────────────────┤
-│ Web3 & Blockchain │ Solidity, Ethereum, Hardhat,     │ Cryptographic non-repudiation,    │
-│                   │ IPFS, ethers.js, MetaMask        │ immutable supply chain tracking   │
-├───────────────────┼──────────────────────────────────┼───────────────────────────────────┤
-│ Cloud & DevOps    │ Docker, GitHub Actions, AWS,     │ Automated CI/CD build-test loops, │
-│                   │ GCP, Prometheus, Grafana         │ latency telemetry & observability │
-├───────────────────┼──────────────────────────────────┼───────────────────────────────────┤
-│ Data Systems      │ PostgreSQL, MongoDB, MySQL,      │ High-throughput query planning,   │
-│                   │ R Programming, Power BI, SQL     │ financial transaction analytics   │
-└───────────────────┴──────────────────────────────────┴───────────────────────────────────┘
+```mermaid
+flowchart TD
+  subgraph INGRESS ["01. Ingress & Telemetry Layer"]
+    direction TB
+    I1["Edge Camera / IoT Sensory Daemon<br/>(PashuParichay / Smart Mirror)"]
+    I2["Financial Transaction Stream / Web3 Client<br/>(UPI Fraud Engine / ChainVote)"]
+  end
+
+  subgraph INTELLIGENCE ["02. Applied Intelligence & Inference"]
+    direction TB
+    M1["YOLOv8 + TensorFlow.js<br/>90.9% mAP50 Indigenous Livestock Segmentation"]
+    M2["LightGBM Decision Trees + SHAP<br/>15+ Behavioral & Velocity Features | &lt;50ms SLA"]
+  end
+
+  subgraph LEDGER ["03. Decentralized Consensus & Provenance"]
+    direction TB
+    L1["SHA-256 State Digest Generation<br/>(Zero PII Leakage)"]
+    L2["EVM Smart Contracts (Solidity 0.8.x)<br/>State Transitions &amp; RBAC Access Controls"]
+    L3["IPFS Decentralized Storage<br/>Tamper-Proof Audit Manifests"]
+  end
+
+  subgraph OBSERVABILITY ["04. Client Presentation & Ops"]
+    direction TB
+    O1["Interactive React / Vite Consoles<br/>Real-Time WebSocket Risk Dispatch"]
+    O2["Prometheus &amp; Grafana Metrics<br/>Zero-Downtime Microservice Observability"]
+  end
+
+  I1 --> M1
+  I2 --> M2
+  M1 & M2 --> L1
+  L1 --> L2
+  L2 --> L3
+  L2 & M2 --> O1
+  M1 & M2 --> O2
 ```
 
 ---
 
-## 🔬 Showcase Systems
+## 🔬 Flagship Showcase Systems
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🐾 [PashuParichay — AI Livestock Vision](https://github.com/kam-hq/pashu-parichay)
-*Edge + Cloud Multimodal Livestock Recognition System*
-- **90.9% mAP50**, 91.9% precision across **73 indigenous cattle & buffalo breeds**.
-- **Dual-tier scanning**: Zero-latency offline edge inference via TensorFlow.js paired with deep multimodal reasoning via Gemini Vision.
-- Python FastAPI microservice with live camera stream inference & auto-pause on high confidence.
-- Integrated field assistant with conversational chat, phenotype profiling & veterinary geolocation.
+*Hybrid Edge + Cloud Indigenous Cattle & Buffalo Breed Recognition*
+
+- **Dual-Tier Scanning**: Client-side offline inference via **TensorFlow.js** combined with deep cloud reasoning via **Ultralytics YOLOv8** and **Gemini 1.5 Flash**.
+- **90.9% mAP50 & 91.9% Precision** across 73 indigenous cattle and buffalo breeds under adverse field lighting.
+- **Real-Time Camera Stream**: Python FastAPI backend with live WebRTC frame inference, automatic bounding-box segmentation, and auto-capture upon high confidence threshold.
+- **Veterinary Operations**: Integrated field assistant with conversational chat, phenotype profiling, and geolocation-based clinic lookup.
+
 <br/>
-<code>Python</code> <code>YOLOv8</code> <code>FastAPI</code> <code>React</code> <code>TypeScript</code> <code>TensorFlow.js</code> <code>Gemini API</code>
+
+`Python` `FastAPI` `YOLOv8` `PyTorch` `TensorFlow.js` `React` `TypeScript` `Gemini API`
 
 </td>
 <td width="50%" valign="top">
 
 ### 🛡️ [AI UPI Fraud Detection & Audit](https://github.com/kam-hq/upi-fraud-detection)
-*Real-Time ML Decision Engine with Blockchain Anchoring*
-- Sub-second LightGBM classification engine evaluating transaction risk across **15+ behavioral & velocity features**.
-- Explainable AI powered by **SHAP risk attribution graphs** rendering per-feature contribution factors.
-- Live WebSocket push alerts directly to an interactive React investigator console.
-- Cryptographic SHA-256 trust digests anchored to **Ethereum smart contracts** for non-repudiation (zero PII stored on-chain).
-- Fully containerized microservices monitored with Prometheus & Grafana.
+*Sub-50ms ML Risk Engine Anchored to Ethereum Smart Contracts*
+
+- **High-Velocity ML Classifier**: **LightGBM** gradient-boosted decision trees evaluating **15+ behavioral and velocity vectors** (transaction frequency, amount z-score, degree centrality).
+- **Explainable AI (XAI)**: Integrated **TreeSHAP** computing per-feature contribution factors and dynamic risk attribution charts.
+- **Cryptographic State Anchoring**: Generates SHA-256 digest roots anchored to **Ethereum smart contracts** for non-repudiation audit trails with **zero PII stored on-chain**.
+- **Real-Time Investigator UI**: Live WebSocket alerts pushing high-risk anomalies directly to an interactive analyst console.
+
 <br/>
-<code>Python</code> <code>FastAPI</code> <code>LightGBM</code> <code>SHAP</code> <code>Solidity</code> <code>React</code> <code>Docker</code> <code>PostgreSQL</code>
+
+`Python` `FastAPI` `LightGBM` `SHAP` `Solidity` `Ethereum` `React` `Docker` `PostgreSQL`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 📦 [PharmaChain — Supply Chain Traceability](https://github.com/kam-hq/pharma-chain)
-*Decentralized Pharmaceutical Provenance & Anti-Counterfeit Platform*
-- End-to-end drug transit provenance from manufacturer to pharmacy to patient.
-- Immutable custody checkpoints and temperature/verification history logged on Ethereum.
-- MetaMask wallet integration for multi-stakeholder cryptographic role-based authentication.
-- Decentralized IPFS storage for tamper-resistant batch compliance manifests.
+### 📦 [PharmaChain — Supply Chain Provenance](https://github.com/kam-hq/pharma-chain)
+*Decentralized Pharmaceutical Traceability & Anti-Counterfeit Protocol*
+
+- **4-Tier State Machine**: Cryptographic custody checkpoints from **Manufacturer → Distributor → Pharmacy → Patient**.
+- **EVM Smart Contracts**: Role-based access control (RBAC), immutable transaction logging, and temperature compliance checks.
+- **Decentralized Storage**: **IPFS** document pinning for tamper-resistant batch compliance manifests and COA certificates.
+- **MetaMask Integration**: Web3 provider authentication with cryptographic transaction signatures.
+
 <br/>
-<code>Solidity</code> <code>Ethereum</code> <code>React</code> <code>TypeScript</code> <code>Vite</code> <code>IPFS</code> <code>ethers.js</code>
+
+`Solidity` `Ethereum` `React` `TypeScript` `Vite` `IPFS` `ethers.js` `Hardhat`
 
 </td>
 <td width="50%" valign="top">
 
-### 🗳️ [ChainVote — Decentralized Governance](https://github.com/kam-hq/chain-vote)
-*EVM-Compatible Trustless Polling & Voting Architecture*
-- Audited Solidity smart contracts guaranteeing one-wallet-one-vote election integrity.
-- Real-time client vote distribution visualization with Recharts.
-- Instant client-side transaction feedback and cryptographic receipt verification.
+### 🗳️ [ChainVote — Trustless Governance](https://github.com/kam-hq/chain-vote)
+*Audited EVM Electoral Architecture with Cryptographic Verification*
+
+- **Voting Integrity**: Audited Solidity contracts guaranteeing one-wallet-one-vote rules with anti-tamper ballot hashing.
+- **Double-Vote Prevention**: Persistent mapping bitsets and reentrancy-guarded state transitions.
+- **Live Governance Visuals**: Real-time ballot distribution rendering using **Recharts** and Tailwind CSS.
+- **Instant Client Feedback**: Automated transaction receipt verification and Sepolia testnet event listeners.
+
 <br/>
-<code>Solidity</code> <code>Ethereum</code> <code>TypeScript</code> <code>React</code> <code>Tailwind CSS</code> <code>Hardhat</code>
+
+`Solidity` `Ethereum` `TypeScript` `React` `Tailwind CSS` `Hardhat` `ethers.js`
 
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-### 🪞 [Smart Mirror — Ambient IoT System](https://github.com/kam-hq/smart-mirror)
-*Modular Python Ambient Information Display & Telemetry Dashboard*
-- Asynchronous multi-threaded telemetry pulling live weather metrics, news feeds, and calendar events.
-- Lightweight, zero-overhead Tkinter interface optimized for embedded single-board computing.
+### 🪞 [Smart Mirror — Ambient IoT Telemetry System](https://github.com/kam-hq/smart-mirror)
+*Asynchronous Multi-Threaded Python Telemetry System for Single-Board Computers*
+
+- **Non-Blocking Architecture**: Multi-threaded daemon polling OpenWeatherMap APIs, live news feeds, and network connectivity telemetry without UI stutters.
+- **Zero-GPU Overhead**: Optimized Tkinter canvas rendering designed specifically for resource-constrained ARM SBCs (Raspberry Pi).
+
 <br/>
-<code>Python</code> <code>Tkinter</code> <code>OpenWeather API</code> <code>IoT Architecture</code>
+
+`Python` `Tkinter` `OpenWeather API` `feedparser` `Embedded IoT` `Linux`
 
 </td>
 </tr>
@@ -134,47 +163,55 @@ I build robust, production-grade applications that bridge classical computer sci
 
 ---
 
-## 🛠️ Technology Arsenal
+## 🎨 The 19-Year Contribution Canvas (2008–2026)
+
+My entire GitHub contribution heatmap has been engineered into a continuous 19-year algorithmic tapestry that chronicles Silicon Valley's foundational ethos alongside the classical triumph *Veni. Vidi. Vici.*
+
+| Year Range | Visual Style | Rendered Text / Motif | Significance |
+| :--- | :--- | :--- | :--- |
+| **2008 – 2022** | **Monolithic 7-Row Typography** | `WE ARE MAKING THE WORLD A BETTER PLACE THROUGH TECH ONE ALGORITHM AT A TIME` | Centered quote typography spanning 15 continuous calendar years. |
+| **2023** | **James231 3D Shaded Relief** | `VENI` | 4-tier beveled letterforms on full ambient green field. |
+| **2024** | **James231 3D Shaded Relief** | `VIDI` | 4-tier beveled letterforms on full ambient green field. |
+| **2025** | **James231 3D Shaded Relief** | `VICI` | 4-tier beveled letterforms on full ambient green field. |
+| **2026** | **High-Density Typography** | `KUSHAL` + Flagship Release Anchors | Identity stamp paired with today's open-source release commits. |
+
+---
+
+## 🛠️ Engineering Technology Arsenal
 
 <div align="center">
 
-| Category | Core Tooling & Frameworks |
+| Architectural Layer | Core Tooling, Frameworks & Languages |
 |:---|:---|
-| **Languages** | `Python` `TypeScript` `Java` `JavaScript` `Solidity` `C++` `SQL` `R` `Embedded C` |
-| **Frontend & UI** | `React.js` `TypeScript` `Vite` `Next.js` `Tailwind CSS` `Bootstrap` `HTML5` `CSS3` |
-| **Backend & Services** | `FastAPI` `Node.js` `Express.js` `Flask` `REST APIs` `WebSocket` `Microservices` |
-| **AI, ML & Vision** | `PyTorch` `TensorFlow` `TensorFlow.js` `YOLOv8` `LightGBM` `SHAP` `Google Gemini` `scikit-learn` |
-| **Blockchain & Web3** | `Solidity` `Ethereum` `Hardhat` `ethers.js` `IPFS` `MetaMask` `Smart Contract Auditing` |
-| **Cloud, DevOps & Data** | `Docker` `GitHub Actions` `AWS` `GCP` `PostgreSQL` `MongoDB` `MySQL` `Prometheus` `Grafana` |
+| **Consensus & Web3 Protocols** | `Solidity` `Ethereum` `Hardhat` `ethers.js` `IPFS` `MetaMask` `EVM Smart Contracts` `Smart Contract Auditing` |
+| **Applied AI & Computer Vision** | `PyTorch` `Ultralytics YOLOv8` `LightGBM` `SHAP (Explainable AI)` `TensorFlow.js` `Google Gemini 1.5 Flash` `scikit-learn` |
+| **High-Throughput Backends** | `FastAPI` `Python 3.11` `Java` `Node.js` `Express.js` `WebSockets` `REST APIs` `Microservices` |
+| **Reactive Client Interfaces** | `TypeScript` `React 18` `Vite` `Next.js` `Tailwind CSS` `Recharts` `HTML5` `CSS3` |
+| **Data Systems & Observability** | `PostgreSQL` `MongoDB` `MySQL` `Docker` `Docker Compose` `GitHub Actions (CI/CD)` `Prometheus` `Grafana` `Linux` |
 
 </div>
 
 ---
 
-## 📚 Academic Rigor & CS Foundations (Presidency University)
+## 📚 Computer Science & Systems Rigor
 
 ```
-Systems & Theoretical Foundations
-├── Computer Science Foundations: Data Structures & Algorithms (DSA), Design & Analysis of Algorithms (DAA)
-├── Core Systems: Operating Systems (OS), Database Management Systems (DBMS), Computer Architecture (COA)
-├── Distributed & Networks: Computer Networks & Data Communications, Distributed Ledger Technology (DLT)
-├── Software Engineering: Object-Oriented Analysis & Design (OOAD), Service-Oriented Architecture (SOA), Cloud Systems
-├── Security & Cryptography: Cryptography & Network Security, Ethical Hacking, Blockchain Auditing
-└── Applied Intelligence: AI & Machine Learning, Generative AI for Blockchain, Data Handling & Power BI
+Presidency University — B.Tech Computer Science & Engineering (Blockchain Specialization)
+├── Theoretical Foundations : Data Structures & Algorithms (DSA), Design & Analysis of Algorithms (DAA)
+├── Systems Engineering     : Operating Systems (OS), Database Management Systems (DBMS), Computer Architecture
+├── Distributed Computing   : Computer Networks & Communications, Distributed Ledger Technology (DLT), P2P Protocols
+├── Software Verification   : Object-Oriented Analysis & Design (OOAD), Microservices Architecture, Cloud Native
+└── Information Security    : Applied Cryptography, Network Security, Smart Contract Auditing & Static Analysis
 ```
 
 ---
 
-## 📈 Activity & Telemetry
-
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kam-hq&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kam-hq&layout=compact&theme=tokyonight&hide_border=true)
+### 🤝 Engineering Inquiries & Collaboration
 
-<br/>
+**Open to Software Engineering, Distributed Systems, Applied AI, and Web3 Roles.**
 
-**Ready to engineer systems that make an impact.**  
-[LinkedIn](https://linkedin.com/in/ku5hal) · [Email](mailto:indexkam@gmail.com) · [GitHub](https://github.com/kam-hq)
+[LinkedIn](https://linkedin.com/in/ku5hal) &nbsp;·&nbsp; [Email](mailto:indexkam@gmail.com) &nbsp;·&nbsp; [GitHub](https://github.com/kam-hq)
 
 </div>
